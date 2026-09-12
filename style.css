@@ -5,23 +5,22 @@
 
 /* CENTER ON RUN */
 body {
-    font-family: 'Archivo Black', sans-serif;
+    font-family: Archivo Black, sans-serif;
     display: grid;
     place-items: center;
-    min-height: 100vh;
+    height: 100vh;
     margin: 0;
     background-color: #FFFFFF;
 }
 
-/* MINI CALENDAR */
+/* 🔥 MINI CALENDAR */
 .calendar {
-    background-color: #FFF8F0;
+    background-color: #FFFBF6;
     border-radius: 26px;
     overflow: hidden;
     width: 210px;
     color: #402E2A;
     padding: 10px;
-    box-sizing: border-box;
 }
 
 /* HEADER */
@@ -32,22 +31,21 @@ body {
     padding: 4px;
 }
 
-/* MINI MONTH PILL */
+/* 🔥 MINI MONTH PILL */
 .month-pill {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #9EA76B;
+    background-color: #809673;
     border-radius: 999px;
     padding: 0 8px;
     gap: 4px;
     width: 100%;
     max-width: 165px;
     height: 26px;
-    box-sizing: border-box;
 }
 
-/* ARROW BUTTON */
+/* 🔥 ARROW BUTTON */
 .month-pill .btn {
     cursor: pointer;
     display: flex;
@@ -57,14 +55,14 @@ body {
     flex-shrink: 0;
 }
 
-/* WHITE ARROWS */
+/* 🔥 WHITE ARROWS */
 .month-pill .btn i {
     color: #FFFFFF;
     line-height: 26px;
     font-size: 10px;
 }
 
-/* MONTH TEXT */
+/* 🔥 MONTH TEXT */
 #month-year {
     flex-grow: 1;
     text-align: center;
@@ -85,7 +83,6 @@ body {
     grid-template-columns: repeat(7, 1fr);
 }
 
-/* CALENDAR DAYS AREA */
 .days {
     height: 150px;
 }
@@ -108,14 +105,12 @@ body {
 
 /* TODAY */
 .days .today {
-    background-color: #9EA76B;
+    background-color: #809673;
     color: #FFFFFF;
     border-radius: 50%;
     font-weight: bold;
 }
 
-/* FADED DAYS */
 .days .fade {
     color: #402E2A;
-    opacity: 0.5;
 }
